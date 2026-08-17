@@ -1,0 +1,8 @@
+growth = 20
+target = 15
+print(growth > target)
+print(growth < target)
+print(growth == target)
+print(growth != target)
+print(growth >= target)
+print(growth <= target)
