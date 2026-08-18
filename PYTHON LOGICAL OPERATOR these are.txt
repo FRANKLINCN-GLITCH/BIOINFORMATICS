@@ -1,0 +1,9 @@
+PYTHON LOGICAL OPERATOR: these are  operators used to combine and modify python condition.
+EXAMPLE: AND, OR, NOT
+
+CONDITION: these are questions that python can answer to get a Boolean result (true/false)
+
+example; 
+age = 24
+print(age >= 18)
+true
