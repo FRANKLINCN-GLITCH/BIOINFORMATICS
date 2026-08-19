@@ -1,0 +1,142 @@
+PYTHON OPERATORS.
+1)ARITHMETIC OPERATORS
+2)COMPARISON OPERATORS
+3)LOGICAL OPERATORS
+1)INTRODUCTIONS TO ARITHIMATIC OPERATORS.
+
+OPERATIONS: a special symbol that perform an operation  on operands.
+OPERAND: a value/variables to which the operation is applied.
+EXAMPLE: 3 + 4
+ARITHIMETIC OPERATOR  ARE BINARY OPERATRORS USE TO ADD,MINUS,MULTIPLY.....TWO OPERANDS.
+
+LIST OF ARITHIMETIC OPERATORS.
+Addition and urinary plus (+)
+Subtraction and urinary minus (-)
+multiplication (*)
+division (/)
+floor division (//)
+modulus (%)
+power (**)
+
+1. example.
+x = -7
+y = -x
+print(y) = 7
+
+2. example.
+4 - 5
+print (4 - 5) = -2
+
+3.example.
+y = 20
+x = 50
+print (y * x)= 1000
+
+4. example.
+y = 40
+x = 20
+print(y / x) = 2.0
+
+5.example.
+y = 15
+x = 7
+print(y // x) =2      (2 7s fits into 15)
+
+6.example.
+y = 18
+x = 7
+print(y % x) = 4
+
+7)example.
+x = 5
+y = 2
+print(x ** y) = 25
+
+
+git add .
+git commit -m "Describe what I changed"
+git push
+
+
+2)COMPARISON OPERATORS: the are operators used to compare two values and determine the relationship between them (usually a Boolean result).
+
+THERE ARE 6 MAJOR TYPE OF COMPARISON OPERATORS WHICH INCLUDES:
+> greater than
+< less than
+== equal to
+!= not equal to
+<= less than or equal to
+>= greater or equal to
+
+
+3)LOGICAL OPERATOR: is used to combine or modify a condition.
+a condition; is a question a python answers using true/false
+EXAMPLE:age = 15
+print(age >= 18)PYTHON LOGICAL OPERATOR: these are  operators used to combine and modify python condition.
+EXAMPLE: AND, OR, NOT
+
+CONDITION: these are questions that python can answer to get a Boolean result (true/false)
+
+ AND example;  
+age = 21
+has_id = True
+print(age >= 18 and has_id == True)
+true
+
+ example: sequence_length = 150
+gc_content = 55
+print(sequence_length >= 100 and gc_content >= 50)
+true
+
+Note; in AND both condition must be true
+
+NOT EXAMPLE;
+is_raining = True
+
+print(not is_raining)
+false
+
+note; not reverses Boolean value.
+
+OR EXAMPLE; at least one must be true.
+
+has_id = True
+has_passport = False
+
+print(has_id or has_passport)
+true
+
+A biological example for you 🧬
+
+Let's make this relevant to your eventual bioinformatics work.
+
+Imagine you're examining a DNA sequence.
+
+You want to know whether a sequence is suitable for analysis.
+
+Your requirements:
+
+sequence length must be at least 100
+GC content must be at least 40%
+
+You could write:sequence_length = 300
+gc_content = 100
+print(sequence_length >= 300 and gc_content >= 100)
+
+
+Logical operators become extremely powerful with if
+
+This is one of the main reasons you're learning them.
+
+For example;
+age = 21
+has_id = True
+
+if age >= 18 and has_id:
+    print("Access granted")
+
+
+
+
+
+

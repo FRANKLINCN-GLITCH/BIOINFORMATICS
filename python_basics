@@ -1,3 +1,4 @@
-sequence_length = 300
-gc_content = 100
-print(sequence_length >= 300 and gc_content >= 100)
+dna_start = 1000
+dna_end = 1200
+dna_growth = dna_end - dna_start
+print(dna_growth)
